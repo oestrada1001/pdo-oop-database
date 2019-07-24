@@ -126,7 +126,7 @@ class Database
      * @param array $dataset
      * @return mixed
      */
-    public function prepare_statement_and_execute(String $query, Array $dataset)
+    private function prepare_statement_and_execute(String $query, Array $dataset)
     {
         $prepared_statement = $this->db_connection->prepare($query);
 
@@ -223,7 +223,7 @@ class Database
      * @param array $conditionals
      * @return array
      */
-    public function stringify_conditionals(Array $conditionals)
+    private function stringify_conditionals(Array $conditionals)
     {
         $stringify_conditionals = null;
         $dataset = [];
