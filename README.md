@@ -1,7 +1,7 @@
 # PDO OOP Database Connection #  
 
 ## *Attention* ##
-The Database Class allows you to make database changes using PDO. <br>
+The Database class allows you to make database changes using PDO. <br>
 By design, the Database Class does not do any validation or sanitation.
 
 For debugging purposes, Errors are set to display. <br>
@@ -39,4 +39,4 @@ I.E. *AND, and, And, aND, anD, etc.*
 
 **Additional Notes:**
 - - - -
-Following TTD and Agile Methodologies, I will be updating this class with more functionality as needed. This class follows the Single Responsibility Principle and only depending on the database credentials.
+Following TTD and Agile Methodologies, I will be updating this class with more functionality as needed. This class follows the Single Responsibility Principle and it's only dependent on the database credentials.
