@@ -16,13 +16,13 @@
  *
  * **ATTENTION**
  * 1) Credentials must comply with the following format AND INDEXES:
- *    define('CREDENTIALS', array(
+ *    $_CREDENTIALS = array(
  *       'driver' => 'driver_type',
  *       'host'   => 'host_name',
  *       'database' => 'db_name',
  *       'username' => 'username',
  *       'password' => 'password'
- *    ));
+ *    );
  *
  * 2) Insert queries may have unlimited number of columns and their respected values
  *    as long as $dataset complies with the following format:
