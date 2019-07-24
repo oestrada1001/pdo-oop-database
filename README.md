@@ -1,5 +1,4 @@
-# PDO OOP Database #  
-
+# PDO OOP Database Connection #  
 
 ## *Attention* ##
 The Database Class allows you to make database changes using PDO. <br>
